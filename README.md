@@ -1,6 +1,6 @@
 # translator-buddy
 
-#### easily generate strings.xml content from your exsisting strings.xml content and the translation file
+#### easily generate strings.xml content from your existing strings.xml content and the translation file
 
 The app is live at [https://strgen.surge.sh](https://strgen.surge.sh)
 
@@ -41,9 +41,11 @@ To use the app, just upload the language and strings files and hit the generate 
 > <string name="true_text_alt">tan verdadero</string>
 > ```
 
-** The match is case sensetive, so unless the full string matches the replacement won't be made. So please make sure your language file matches the strings file. **
+### Notes:
 
-** Each string should be in one single line. Make sure no text is broken down to multiple lines **
+The match is case sensetive, so unless the full string matches the replacement won't be made. So please make sure your language file matches the strings file.
+
+Each string should be in one single line. Make sure no text is broken down to multiple lines
 
 The app has been built with a happy flow in mind, so it is only going to work if you have followed everything properly and there are no corner cases.
 
